@@ -23,7 +23,7 @@ namespace Iterations
             } while (counter<=5);
             while (counter<=5)
             {
-                Console.WriteLine("{may new run} - Today is a beautiful day");
+                Console.WriteLine("{may never run} - Today is a beautiful day");
                 counter++;
             }
         }
