@@ -34,13 +34,13 @@ namespace Inheritance
              Console.WriteLine($"{this.Make} {this.Model} {this.Year} is moving.");
         }
     }
-class ElectricCar:Car{
+    class ElectricCar:Car{
         public double BatteryCapacity;
         public void Charge() {
             Console.WriteLine("Charge increased");
         }
     }
-static class Utility
+    static class Utility
 {
     public static void PrintDetails(Car car)
     {
